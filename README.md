@@ -47,5 +47,21 @@ To grow as a **software engineer** with strong foundations in **cybersecurity** 
 📧 yahya.jobs@outlook.com  
 
 ---
+### 🌟 Featured Projects
+
+- 🧠 [Game Project](https://github.com/yzes95/Cat_Hunt_V1_Python)
+>  A Python-based puzzle game built during CS50P with custom scoring and logic.
+
+- ⚙️ [![Argument Mining API](https://github-readme-stats.vercel.app/api/pin/?username=yzes95&repo=argument-mining&theme=radical)](https://github.com/yzes95/Argument-Mining-API)(https://github.com/yzes95/Argument-Mining)
+> A Python-based API that analyzes text to identify argumentative statments vs non-argumentative statments.  
+> Built using **FastAPI**, **Transformers**, and **spaCy**,**Skitlearn** designed for research and automated debate analysis.  
+
+
+- ⚙️ [![Moodvie](https://github-readme-stats.vercel.app/api/pin/?username=yzes95&repo=moodvie&theme=radical)](https://github.com/yzes95/MoodVi)
+> A creative web app that lets users explore movies based on **mood and emotion** rather than genre.  
+> Features responsive design, mood-based filtering, and a short video usage guide.  
+> Built with **HTML, CSS, JS, and Flask/FastAPI backend integration**
+
+
 
 > “Keep learning, keep building — every skill adds a new layer to your potential.”
