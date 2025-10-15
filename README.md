@@ -57,7 +57,7 @@ To grow as a **software engineer** with strong foundations in **cybersecurity** 
 > Built using **FastAPI**, **Transformers**, and **spaCy**,**Skitlearn** designed for research and automated debate analysis.  
 
 
-- ⚙️ [![Moodvie](https://github-readme-stats.vercel.app/api/pin/?username=yzes95&repo=moodvie&theme=radical)](https://github.com/yzes95/MoodVi)
+[![Moodvie](https://github-readme-stats.vercel.app/api/pin/?username=yzes95&repo=MoodVi&theme=radical)](https://github.com/yzes95/MoodVi)
 > A creative web app that lets users explore movies based on **mood and emotion** rather than genre.  
 > Features responsive design, mood-based filtering, and a short video usage guide.  
 > Built with **HTML, CSS, JS, and Flask/FastAPI backend integration**
