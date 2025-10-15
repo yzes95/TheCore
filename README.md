@@ -32,7 +32,7 @@ Since then, I’ve been building my skills across multiple domains — from embe
 
 ### 📊 GitHub Stats & Visuals
 
-| ![Yahya's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=radical) |
+| ![Yahya's GitHub stats](https://github-readme-stats.vercel.app/api?username=yzes95&show_icons=true&theme=radical) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yzes95&layout=compact&theme=radical) |
 |---|---|
 
 ---
@@ -44,8 +44,8 @@ To grow as a **software engineer** with strong foundations in **cybersecurity** 
 
 ### 💬 Let’s Connect
 📫 [LinkedIn](https://www.linkedin.com/in/YOUR_LINKEDIN)  
-🌐 [Portfolio / Personal Website](https://YOUR_WEBSITE.com)  
-📧 your.email@example.com  
+🌐 To Be Posted Soon
+📧 yahya.jobs@outlook.com  
 
 ---
 
