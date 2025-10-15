@@ -49,7 +49,7 @@ To grow as a **software engineer** with strong foundations in **cybersecurity** 
 ---
 ### 🌟 Featured Projects
 
-- 🧠 [Game Project](https://github.com/yzes95/Cat_Hunt_V1_Python)
+- 🧠 [Game Project](https://github-readme-stats.vercel.app/api/pin/?username=yzes95&repo=Cat_Hunt_V1_Python&theme=radical)](https://github.com/yzes95/Cat_Hunt_V1_Python)
 >  A Python-based puzzle game built during CS50P with custom scoring and logic.
 
 - ⚙️ [![Argument Mining API](https://github-readme-stats.vercel.app/api/pin/?username=yzes95&repo=argument-mining&theme=radical)](https://github.com/yzes95/Argument-Mining-API)(https://github.com/yzes95/Argument-Mining)
