@@ -1,33 +1,41 @@
-# Hi there 👋, I'm Yahya  
+# 👋 Hi, I'm Yahya Zakaria Elyan  
 
-🚀 Passionate about software development, systems design, and cybersecurity.  
-I began my journey working in the **oil and gas field** (Green Valley & Saknafta Service Companies), but soon discovered my passion for **programming** and **problem solving**.  
-
-Since then, I’ve been building my skills across multiple domains — from embedded C to full-stack web apps and cybersecurity fundamentals.  
+🎓 **MSc Computer Science Candidate** | 🧠 Software Engineer | 🔐 AI & Cybersecurity Enthusiast  
 
 ---
 
-### 🧠 What I’m currently working on
-- Finishing **Harvard’s CS50X, CS50W, and CS50SQL** courses  
-- Self-learning **Linux (Fedora)** and **Git**  
-- Exploring **cybersecurity concepts** through the Google Cybersecurity Professional Certificate  
+### 💡 About Me
+MSc Computer Science candidate with a strong engineering foundation, specializing in building robust, end-to-end software solutions.  
+I design and deploy high-performance systems using **Python**, **FastAPI**, and **Docker**, and enhance them with applied **machine learning**—from classical ML models to fine-tuned NLP systems.  
+Currently strengthening my security knowledge through the **Google Cybersecurity Professional Certificate**, I’m passionate about creating reliable, intelligent, and secure software systems.
 
+---
+
+### 🎓 Education & Certifications
+- 🎓 **MSc in Computer Science** – University of Dundee, UK *(Expected 2026)*  
+- 🎓 **BSc in Electrical & Electronics Engineering** – Cairo University, Egypt *(2021)*  
+- 📘 **CS50 Series (Python, CS, Web, SQL)** – Harvard  
+- 🧩 **Google Cybersecurity Certificate** – In Progress  
+- 🐳 **Docker / FastAPI / React / AI-ML Udemy Courses** – Ongoing
+- 
 ---
 
 ### ⚙️ Technical Skills
-- **Languages:** C, Python, SQL, HTML, CSS, JavaScript  
-- **Frameworks & Tools:** FastAPI, Flask, SQLite, Git, Linux  
-- **Embedded Systems:** Arduino, Microcontrollers, MISRA C, AUTOSAR standards  
-- **Cybersecurity:** Threat detection basics, vulnerability assessment, secure coding practices  
+**Languages:** Python, JavaScript, C/C++, SQL, Java, Assembly  
+**AI & ML:** PyTorch, Hugging Face Transformers, scikit-learn, spaCy, Gemini API  
+**Backend:** FastAPI, Django  
+**Databases:** MySQL, MongoDB, SQLite3  
+**Frontend:** React, HTML, CSS, Tailwind CSS, Bootstrap  
+**Dev Tools:** Git, Docker, Linux, VS Code, Google Colab  
 
 ---
 
-### 🧩 Projects & Highlights
-- 🕹️ Built a Python game as part of **CS50P**
-- 💡 Developed temperature control and smart meter modules using Arduino  
-- 🛠️ Created small FastAPI-based APIs for data management  
-- 🔐 Learning how to secure web applications and APIs  
-
+### 🧩  Current Projects
+- 🕹️ AntiWebNSFW (Mobile app and Windows app)
+- 💡 Team Project on a Medical Health Care App
+- 🔐 Learning how to secure web applications and APIs
+- 🔐 Strengthing my Knowledge in AI/ML to do a project related to Debate Dominaizer
+  
 ---
 
 ### 📊 GitHub Stats & Visuals
@@ -42,7 +50,7 @@ To grow as a **software engineer** with strong foundations in **cybersecurity** 
 ---
 
 ### 💬 Let’s Connect
-📫 [LinkedIn](https://www.linkedin.com/in/YOUR_LINKEDIN)  
+📫 [LinkedIn](linkedin.com/in/yahya-zakaria-elyan-salman-b1b99a163)  
 🌐 To Be Posted Soon
 📧 yahya.jobs@outlook.com  
 
@@ -65,3 +73,4 @@ To grow as a **software engineer** with strong foundations in **cybersecurity** 
 
 
 > “Keep learning, keep building — every skill adds a new layer to your potential.”
+> “Building software that is not only functional—but intelligent, secure, and built to last.”
