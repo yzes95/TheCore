@@ -49,10 +49,10 @@ To grow as a **software engineer** with strong foundations in **cybersecurity** 
 ---
 ### 🌟 Featured Projects
 
-- 🧠 [![Game Project](https://github-readme-stats.vercel.app/api/pin/?username=yzes95&repo=Cat_Hunt_V1_Python&theme=radical)](https://github.com/yzes95/Cat_Hunt_V1_Python)
+[![Game Project](https://github-readme-stats.vercel.app/api/pin/?username=yzes95&repo=Cat_Hunt_V1_Python&theme=radical)](https://github.com/yzes95/Cat_Hunt_V1_Python)
 >  A Python-based puzzle game built during CS50P with custom scoring and logic.
 
-- ⚙️ [![Argument Mining API](https://github-readme-stats.vercel.app/api/pin/?username=yzes95&repo=argument-mining&theme=radical)](https://github.com/yzes95/Argument-Mining-API)(https://github.com/yzes95/Argument-Mining)
+[![Argument Mining API](https://github-readme-stats.vercel.app/api/pin/?username=yzes95&repo=Argument-Mining&theme=radical)](https://github.com/yzes95/Argument-Mining)[![Argument Mining API](https://github-readme-stats.vercel.app/api/pin/?username=yzes95&repo=Argument-Mining-API&theme=radical)](https://github.com/yzes95/Argument-Mining-API)
 > A Python-based API that analyzes text to identify argumentative statments vs non-argumentative statments.  
 > Built using **FastAPI**, **Transformers**, and **spaCy**,**Skitlearn** designed for research and automated debate analysis.  
 
