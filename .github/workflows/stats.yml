@@ -1,33 +1,25 @@
 name: Update GitHub Stats
-
 permissions:
   contents: write
-
 on:
   schedule:
     - cron: "0 */12 * * *"
   workflow_dispatch:
-
 jobs:
-  github-metrics:
+  update:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - name: Generate General Stats (stats.svg)
-        uses: lowlighter/metrics@latest
-        with:
-          filename: stats.svg
-          token: ${{ secrets.GH_STATS_TOKEN }}
-          base: header, repositories
-          config_timezone: Europe/London
+      - uses: actions/checkout@v4
+      
+      - name: Generate Stats
+        run: |
+          # I fixed the URLs below to use your public Vercel app
+          
+          curl "https://yzes95states.vercel.app/api?username=yzes95&show_icons=true&theme=radical&count_private=true&token=${{ secrets.GH_STATS_TOKEN }}" -o stats.png
+          
+          curl "https://yzes95states.vercel.app/api/top-langs/?username=yzes95&layout=compact&theme=radical&count_private=true&token=${{ secrets.GH_STATS_TOKEN }}" -o langs.png
 
-      - name: Generate Language Stats (langs.svg)
-        uses: lowlighter/metrics@latest
+      - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          filename: langs.svg
-          token: ${{ secrets.GH_STATS_TOKEN }}
-          base: ""
-          plugin_languages: yes
-          plugin_languages_ignored: html, css
-          plugin_languages_limit: 8
+          commit_message: "Update stats"
+          file_pattern: "stats.png langs.png"
