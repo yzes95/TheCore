@@ -40,8 +40,9 @@ Currently strengthening my security knowledge through the **Google Cybersecurity
 
 ### 📊 GitHub Stats & Visuals
 
-![GitHub Stats](https://raw.githubusercontent.com/yzes95/yzes95/main/stats.png)
-![Top Languages](https://raw.githubusercontent.com/yzes95/yzes95/main/langs.png)
+![GitHub Stats](https://raw.githubusercontent.com/yzes95/yzes95/main/stats.png?raw=1)
+![Top Languages](https://raw.githubusercontent.com/yzes95/yzes95/main/langs.png?raw=1)
+
 ![Yahya's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=yzes95&theme=github-compact)
 ---
 
