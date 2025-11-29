@@ -38,7 +38,7 @@ Currently strengthening my security knowledge through the **Google Cybersecurity
   
 ---
 
-### 📊 GitHub Stats & Visuals
+### 📊 GitHub Stats & Visuals 
 
 ![GitHub Stats](./stats.svg)
 ![Top Languages](./langs.svg)
