@@ -1,9 +1,12 @@
 name: Update GitHub Stats
 
+permissions:
+  contents: write
+
 on:
   schedule:
-    - cron: "1 * * * *"   # Runs every 12 hours
-  workflow_dispatch:          # Allow manual trigger
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
 
 jobs:
   update:
@@ -15,13 +18,10 @@ jobs:
 
       - name: Generate GitHub Stats Images
         run: |
-          curl -L -H "Authorization: token ${{ secrets.GH_STATS_TOKEN }}" \
-            "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=yzes95&show_icons=true&theme=radical" \
-            -o stats.png
-
-          curl -L -H "Authorization: token ${{ secrets.GH_STATS_TOKEN }}" \
-            "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=yzes95&layout=compact&theme=radical" \
-            -o langs.png
+          # We use the official URL but pass the token to avoid rate limits
+          curl "https://github-readme-stats.vercel.app/api?username=yzes95&show_icons=true&theme=radical&count_private=true&token=${{ secrets.GH_STATS_TOKEN }}" -o stats.png
+          
+          curl "https://github-readme-stats.vercel.app/api/top-langs/?username=yzes95&layout=compact&theme=radical&count_private=true&token=${{ secrets.GH_STATS_TOKEN }}" -o langs.png
 
       - name: Commit stats images
         uses: stefanzweifel/git-auto-commit-action@v4
