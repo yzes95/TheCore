@@ -9,22 +9,25 @@ on:
   workflow_dispatch:
 
 jobs:
-  update:
+  github-metrics:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Generate GitHub Stats Images
-        run: |
-          # We use the official URL but pass the token to avoid rate limits
-          curl "https://github-readme-stats.vercel.app/api?username=yzes95&show_icons=true&theme=radical&count_private=true&token=${{ secrets.GH_STATS_TOKEN }}" -o stats.png
-          
-          curl "https://github-readme-stats.vercel.app/api/top-langs/?username=yzes95&layout=compact&theme=radical&count_private=true&token=${{ secrets.GH_STATS_TOKEN }}" -o langs.png
-
-      - name: Commit stats images
-        uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Generate General Stats (stats.svg)
+        uses: lowlighter/metrics@latest
         with:
-          commit_message: "Update GitHub stats images"
-          file_pattern: "stats.png langs.png"
+          filename: stats.svg
+          token: ${{ secrets.GH_STATS_TOKEN }}
+          base: header, repositories
+          config_timezone: Europe/London
+
+      - name: Generate Language Stats (langs.svg)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: langs.svg
+          token: ${{ secrets.GH_STATS_TOKEN }}
+          base: ""
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          plugin_languages_limit: 8
