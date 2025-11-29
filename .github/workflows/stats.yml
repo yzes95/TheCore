@@ -1,25 +1,28 @@
 name: Update GitHub Stats
+
 permissions:
   contents: write
+
 on:
   schedule:
     - cron: "0 */12 * * *"
   workflow_dispatch:
+
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Generate Stats
         run: |
-          # I fixed the URLs below to use your public Vercel app
+          # We are saving as .svg now because the API returns SVG data
+          curl "https://yzes95states.vercel.app/api?username=yzes95&show_icons=true&theme=radical&count_private=true" -o stats.svg
           
-          curl "https://yzes95states.vercel.app/api?username=yzes95&show_icons=true&theme=radical&count_private=true&token=${{ secrets.GH_STATS_TOKEN }}" -o stats.png
-          
-          curl "https://yzes95states.vercel.app/api/top-langs/?username=yzes95&layout=compact&theme=radical&count_private=true&token=${{ secrets.GH_STATS_TOKEN }}" -o langs.png
+          curl "https://yzes95states.vercel.app/api/top-langs/?username=yzes95&layout=compact&theme=radical&count_private=true" -o langs.svg
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "Update stats"
-          file_pattern: "stats.png langs.png"
+          file_pattern: "stats.svg langs.svg"
